@@ -46,16 +46,16 @@ try:
                 value = data[offset]
                 print(value_to_char(value), end="")
             print("")
-        print("5...")
-        time.sleep(1.0)
-        print("4...")
-        time.sleep(1.0)
-        print("3...")
-        time.sleep(1.0)
-        print("2...")
-        time.sleep(1.0)
-        print("Get Ready!")
-        time.sleep(1.0)
+        #print("5...")
+        #time.sleep(1.0)
+        #print("4...")
+        #time.sleep(1.0)
+        #print("3...")
+        #time.sleep(1.0)
+        #print("2...")
+        #time.sleep(1.0)
+        #print("Get Ready!")
+        #time.sleep(1.0)
 
 except KeyboardInterrupt:
     pass
