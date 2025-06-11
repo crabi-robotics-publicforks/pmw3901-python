@@ -137,7 +137,7 @@ class PMW3901:
             if dr & 0b10000000 and not (quality < 0x19 and shutter_upper == 0x1F):
                 return x, y
 
-            time.sleep(0.01)
+            time.sleep(0.001) # reducing the sleep time to get data faster
 
         raise RuntimeError("Timed out waiting for motion data.")
 
